@@ -9,3 +9,22 @@
 
 4- git config --list
 #para mostar as informaçoes acima(nome e email)
+
+*************************************************************************************************
+Criando Commit
+
+5- git add .
+#é como se colocasse tudo oque foi alteredo e adicionado dentro de uma caixa
+
+6- git commit -m "create index.html"
+#vai ser a referencia do commit, como se fosse a etiqueta da caixa
+
+7- git log
+#vai mostrar os log e informações dos commit
+
+8- git log --oneline
+#mostra os log de forma reduzida
+
+9- git log -n 3
+#caso tenha muitos logs, esse comando mostra apenas os 3 ultimos commits
+
