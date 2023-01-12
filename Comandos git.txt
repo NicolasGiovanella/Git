@@ -39,3 +39,9 @@ Criando Commit
 
 13- git restore --stage <nome arquivo ou .> 
 #para mover o arquivo na parte de modificados ainda, para fazer mais alteroçoes antes do commit
+
+14- git commit --amend -m "comandos git alterado"
+#para alerar o nome do ultimo commit
+
+15- git reset --soft HEAD~1
+#desfazer o ultimo commit
