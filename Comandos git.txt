@@ -1,0 +1,11 @@
+1- git init 
+#para iniciar o git na pasta desejada
+
+2- git config --global user.name "Nicolas"
+#para definir o nome que aparecera no historico de commits
+
+3- git config --global user.email "nicolasfgiovanella539@gmail.com"
+#para definir o email que aparecera no historico de commits
+
+4- git config --list
+#para mostar as informaçoes acima(nome e email)
