@@ -28,3 +28,14 @@ Criando Commit
 9- git log -n 3
 #caso tenha muitos logs, esse comando mostra apenas os 3 ultimos commits
 
+10- git status
+#mostra se o arquivo teve alteração, se teve e nao foi dada commit e se falta salvar
+
+11- git diff
+#vai comparar o projeto atualcom o ultimo commit, e mostrar as diferenças
+
+12- git restore index.html(ou . para todos)
+#vai restaurar o arquivo para o ultimo commit feito
+
+13- git restore --stage <nome arquivo ou .> 
+#para mover o arquivo na parte de modificados ainda, para fazer mais alteroçoes antes do commit
